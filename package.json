@@ -7,9 +7,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write ./",
     "start": "node ./bin/www",
-    "dev": "cd ./vue-itschool/ && npm run dev && cd ..",
-    "build": "cd ./vue-itschool/ && npm run build && cd ..",
-    "preview": "cd ./vue-itschool/ && npm run preview && cd .."
+    "dev": "cd ./vue-itschool/ && npm run serve && cd ..",
+    "build": "cd ./vue-itschool/ && npm run build && cd .."
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
