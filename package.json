@@ -1,0 +1,31 @@
+{
+  "name": "see-through_museum_web_server",
+  "version": "0.0.0",
+  "description": "Web Server! using NodeJS.",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write ./",
+    "start": "node ./bin/www",
+    "dev": "cd ./vue-itschool/ && npm run dev && cd ..",
+    "build": "cd ./vue-itschool/ && npm run build && cd ..",
+    "preview": "cd ./vue-itschool/ && npm run preview && cd .."
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.17.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.3"
+  }
+}
